@@ -1,0 +1,16 @@
+A simple CPU.
+First commit:
+      1. 16 bits data bus width
+      2. 5 instructions only! (no branches)
+      	 -> lri (load register with immediate)
+	 -> add
+	 -> or
+	 -> xor
+	 -> halt
+      3. 4 stages non-pipelined
+      	 -> fetch
+	 -> decode
+	 -> execute
+	 -> write back
+      4. 16 registers.
+      5. Only embedded memory (no SDRAM/SRAM controller)
